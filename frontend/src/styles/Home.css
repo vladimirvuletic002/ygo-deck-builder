@@ -1,0 +1,62 @@
+body{
+    background-color: darkcyan;
+}
+
+#deck-slots{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    overflow: auto;
+}
+
+.card-slot{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 80px;
+    width: 60px;
+    
+    background-color: brown;
+    margin: 2px;
+    float: left;
+}
+
+.card-image{
+    width: 60px;
+    height: 80px;
+}
+
+.card-image:hover{
+    cursor: pointer;
+}
+
+.card-name-section{
+    overflow: auto;
+}
+
+h4 {
+margin-bottom: 2px;
+}
+
+.error{
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    background-color: rgb(255, 225, 225);
+    border-radius: 2px;
+    border: 1px solid red;
+    padding: 2px;
+    display: inline-block;
+}
+
+#add-btn{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.clear-btn{
+    cursor: pointer;
+}

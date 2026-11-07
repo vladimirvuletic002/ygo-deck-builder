@@ -1,0 +1,38 @@
+.nav {
+    height: 40px;
+    display: flex;
+    background-color: rgb(117, 65, 23);
+    border-bottom: 1px solid white;
+    padding: 12px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.search-bar{
+    margin-left: auto;
+}
+
+#search-btn{
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.build-deck-page{
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.build-deck-page:hover, .cards-db-page:hover{
+    background-color: khaki;
+}
+
+.cards-db-page{
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}

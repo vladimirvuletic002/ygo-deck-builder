@@ -1,0 +1,52 @@
+.card-image-div{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+
+}
+
+h4{
+    margin-top: 0px;
+}
+
+.card-db-image{
+    width: 150px;
+    height: 200px;
+}
+
+.card-description-div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    height: fit-content;
+    overflow: auto;
+    
+}
+
+.card-description-text{
+    font-size: 10px;
+    margin-top: auto;
+}
+
+.card-description-type{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.atk-def{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: auto;
+    text-align: end;
+}
